@@ -3,15 +3,26 @@ First assignment - OPIM 5512
 
 # California Housing Data Visualization
 
-This project uses the California Housing dataset to explore housing data and create a simple visualization.
+This project uses the California Housing dataset to create a boxplot showing the distribution of median income (`MedInc`).
 
 ## Data
 
-The project uses the **California Housing dataset** from `sklearn.datasets`.
+The data comes from the California Housing dataset provided by `scikit-learn`. The dataset contains 20,640 rows and 9 columns, including housing, population, income, and location information.
+
 
 ## How to Run
 
-Run the Python script to load the California Housing dataset and generate the visualization. More detailed instructions will be added later.
+Make sure Python is installed along with the required libraries:
+
+- pandas
+- matplotlib
+- scikit-learn
+
+From the main `A01` project folder, run:
+
+```bash
+python3 src/boxplot.py 
+
 
 ## Expected Output
 
