@@ -22,7 +22,7 @@ From the main `A01` project folder, run:
 
 ```bash
 python3 src/boxplot.py 
-
+```
 
 ## Expected Output
 
